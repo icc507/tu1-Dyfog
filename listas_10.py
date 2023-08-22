@@ -1,0 +1,8 @@
+q = input()
+print(q)
+r = q.split()
+print(r)
+print(r.pop(0))
+print(r)
+print(r.pop(0))
+print(r)

@@ -1,0 +1,6 @@
+q = input()
+print(q)
+r = q.split()
+print(r[0:2])
+print(r[2:])
+print(r[2::2])
