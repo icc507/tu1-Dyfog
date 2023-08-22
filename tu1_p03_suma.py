@@ -9,5 +9,6 @@
 #-----------------
 #Por ahora la salida es sólo el primer número
 #---------------------------------------------
-nums = input().split()
-print(int(nums[0]))
+lista = input().split()
+nums = [int(eval(i)) for i in lista]
+print(sum(nums))
