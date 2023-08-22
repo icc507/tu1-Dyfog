@@ -8,4 +8,4 @@
 #salida correspondiente
 #['a', 'c', 'e', 'g']
 lista = input().split()
-print(lista)
+print(lista[0::2])
