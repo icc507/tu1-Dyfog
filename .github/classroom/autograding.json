@@ -1,0 +1,204 @@
+{
+  "tests": [
+    {
+      "name": "problema1_pares_caso_01",
+      "setup": "",
+      "run": "python3 tu1_p01_pares.py",
+      "input": "10 20 30 40 50 60 70 80",
+      "output": "['10', '30', '50', '70']",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    },
+    {
+      "name": "problema1_pares_caso_02",
+      "setup": "",
+      "run": "python3 tu1_p01_pares.py",
+      "input": "a b c d e f g h i",
+      "output": "['a', 'c', 'e', 'g', 'i']",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema1_pares_caso_03",
+      "setup": "",
+      "run": "python3 tu1_p01_pares.py",
+      "input": "wer tur",
+      "output": "['wer']",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema1_pares_caso_04",
+      "setup": "",
+      "run": "python3 tu1_p01_pares.py",
+      "input": "4 8 7 11 15 22 40 41",
+      "output": "['4', '7', '15', '40']",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema1_pares_caso_05",
+      "setup": "",
+      "run": "python3 tu1_p01_pares.py",
+      "input": "qu ml ye",
+      "output": "['qu', 'ye']",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema2_agrega_en_pos_caso01",
+      "setup": "",
+      "run": "python3 tu1_p02_agrega_en_pos.py",
+      "input": "0 w a b c",
+      "output": "['w', 'a', 'b', 'c']",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema2_agrega_en_pos_caso02",
+      "setup": "",
+      "run": "python3 tu1_p02_agrega_en_pos.py",
+      "input": "3 a a b c d e f g",
+      "output": "['a', 'b', 'c', 'a', 'd', 'e', 'f', 'g']",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema2_agrega_en_pos_caso03",
+      "setup": "",
+      "run": "python3 tu1_p02_agrega_en_pos.py",
+      "input": "5 we 10 20 30 40 50 60 70",
+      "output": "['10', '20', '30', '40', '50', 'we', '60', '70']",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema2_agrega_en_pos_caso04",
+      "setup": "",
+      "run": "python3 tu1_p02_agrega_en_pos.py",
+      "input": "2 a m n tre cua 70",
+      "output": "['m', 'n', 'a', 'tre', 'cua', '70']",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema2_agrega_en_pos_caso05",
+      "setup": "",
+      "run": "python3 tu1_p02_agrega_en_pos.py",
+      "input": "10 20 30 40 50",
+      "output": "['30', '40', '50', '20']",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema3_suma_caso01",
+      "setup": "",
+      "run": "python3 tu1_p03_suma.py",
+      "input": "10 20 30 40",
+      "output": "100",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema3_suma_caso02",
+      "setup": "",
+      "run": "python3 tu1_p03_suma.py",
+      "input": "0 20 30 10 11",
+      "output": "71",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema3_suma_caso03",
+      "setup": "",
+      "run": "python3 tu1_p03_suma.py",
+      "input": "1 2 1 3 2 2 2 ",
+      "output": "13",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema3_suma_caso04",
+      "setup": "",
+      "run": "python3 tu1_p03_suma.py",
+      "input": "2 10 20 30 4 6 8",
+      "output": "80",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema3_suma_caso05",
+      "setup": "",
+      "run": "python3 tu1_p03_suma.py",
+      "input": "0 0 1 0 0 1 0 0 1 0 0 1",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema4_interno_caso01",
+      "setup": "",
+      "run": "python3 tu1_p04_producto_i.py",
+      "input": "0 2 3 4 2 1 0 4",
+      "output": "14",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema4_interno_caso02",
+      "setup": "",
+      "run": "python3 tu1_p04_producto_i.py",
+      "input": "200 0 200",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema4_interno_caso03",
+      "setup": "",
+      "run": "python3 tu1_p04_producto_i.py",
+      "input": "2 3 4 3 7 2 8 1 9 2 6",
+      "output": "58",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema4_interno_caso04",
+      "setup": "python3 tu1_p04_producto_i.py",
+      "run": "py",
+      "input": "2 5 6 3 1",
+      "output": "28",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "problema4_interno_caso05",
+      "setup": "python3 tu1_p04_producto_i.py",
+      "run": "py",
+      "input": "2 0 9 0 1 9 9 1",
+      "output": "18",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    }
+  ]
+}
