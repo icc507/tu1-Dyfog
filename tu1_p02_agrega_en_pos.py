@@ -1,5 +1,5 @@
 #Problema 2 tutorial 1
-#Para una secuencia con el siguiente significado 
+#Para una secuencia con el siguiente significado
 #Posición 0, un número que indica una posición p en la lista posterior
 #Posición 1, un elemento e
 #Posición 2 en adelante, una lista L separada por espacios
@@ -13,5 +13,18 @@
 #Ejemplo de salida ['a', 'b', 'c', 'w']
 #-------------------------------------
 #Por ahora la lista entrega la lista completa (elementos en UNA línea separados por blanco)
-lista = input().split()
-print(lista)
+entrada = input().split()
+posicion = int(entrada[0])
+elemento = entrada[1]
+
+# Convertir los elementos restantes a una lista de cadenas
+nueva_lista = entrada[2:]
+
+# Convertir la posición a índice y verificar si está dentro de los límites
+if posicion >= len(nueva_lista):
+    nueva_lista.append(elemento)
+else:
+    nueva_lista.insert(posicion, elemento)
+
+# Imprimir la nueva lista como cadenas
+print(nueva_lista)
