@@ -11,6 +11,8 @@
 #-------------------------------------
 #Por ahora la lista entrega los elementos pares agregado un cero
 lista = input().split()
+if len(lista)==1:
+    print(0)
 lista = [int(eval(i)) for i in lista]
 pares = lista[::2]
 impares = lista[1::2]
